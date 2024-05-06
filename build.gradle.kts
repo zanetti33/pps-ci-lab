@@ -8,7 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation("org.scala-lang:scala3-library_3:3.3.0")
+    // https://mvnrepository.com/artifact/org.scala-lang/scala3-library
+    implementation("org.scala-lang:scala3-library_3:3.4.1")
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
